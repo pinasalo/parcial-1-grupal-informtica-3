@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #28a745; /* Verde */
+    --secondary-color: #566f8a; /* Azul */
+    --danger-color: #dc3545; /* Rojo */
+    --warning-color: #ffc107; /* Amarillo */
+    --success-color: #198754; /* Verde oscuro */
+    --text-color: #ffffff; /* Color de texto */
+    --background-color: #f8f9fa; /* Color de fondo */
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:aquamarine /* Fondo claro */
+}
+
+header {
+    background-color: var(--success-color); /* Verde */
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+.triage-inmediato {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.triage-urgencias {
+    background-color: #ffc107; /* Amarillo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.triage-urgencia-menor {
+    background-color: #28a745; /* Verde */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.triage-sin-urgencia {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #28a745; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
